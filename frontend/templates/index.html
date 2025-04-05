@@ -10,6 +10,12 @@
     <form action="/submit" method="POST">
         <input type="text" name="itemName" placeholder="Item Name" required><br><br>
         <textarea name="itemDescription" placeholder="Item Description" required></textarea><br><br>
+
+        <!-- Newly Added Fields -->
+        <input type="text" name="item_id" placeholder="Enter Item ID"><br><br>
+        <input type="text" name="item_uuid" placeholder="Enter Item UUID"><br><br>
+        <input type="text" name="item_hash" placeholder="Enter Item Hash"><br><br>
+        <button type="submit">Submit</button>
         <button type="submit">Submit</button>
     </form>
     <p id="message"></p>
